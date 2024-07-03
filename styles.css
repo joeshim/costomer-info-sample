@@ -66,3 +66,11 @@ table th {
 table tbody tr:nth-child(even) {
     background: #f4f4f4;
 }
+
+table .important td {
+    background-color: #ABC900 !important;
+}
+
+table .useful td {
+    background-color: #EAF0D4 !important; /* #ABC900の薄い色 */
+}
